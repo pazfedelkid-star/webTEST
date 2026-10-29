@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web</title>
+    <link rel="stylesheet" type="text/css" href="albert.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">LOGO</div>
+        <dav class="links">
+             <a href="dashboard.html" class="active">HOME</a>
+             <a href="topdex2.html">ABOUT</a>
+             <a href="highlights.html">Highlights</a>
+             <a href="calcu.html">Calcu</a>
+        </dav>
+
+        <div class="search">
+        <input type="text" name="" placeholder="Search up nigga.">
+        <button onclick="logout();">Logout</button>
+
+    </div>
+    </nav>
+    
+    <section id="home" class="hero">
+        <h1>Worth of NUT</h1>
+        <p>
+            Discover the peaple and their moments that make them happy
+        </p>
+        <a href="topdex2.html" class="button">Learn More</a>
+    </section>
+    <section class="feat">
+        <h2>Features</h2>
+        <p>Wanna know my favorite style in sex?></p>
+
+        <div class="feat-card">
+            <img src="Image/King.jpg" alt="feat">
+            <div class="feat-text">
+                <h3>Do i have favorite ?</h3>
+                <p>
+                    Maybe this one is my favorite, she got that big booty and curvy edge
+                </p>
+                <a href="highlights.html" class="button">
+                    See Highlights
+                </a>
+            </div>
+        </div>
+
+        <div class="reason">
+        <div class="reason-card">
+            <h3>🍆Salamca blud🍆</h3>
+            <p>Salmanca mommy</p>
+        </div>
+        <div class="reason-card1">
+            <h3>🍆Salamca Dihh🍆</h3>
+            <p>Music can fill out some void in your asshole</p>
+        </div>
+        </div>
+
+    </section>
+    <script>
+    function logout() {
+
+        if(confirm("Do you want to exit?")) {
+            alert("You have been logged out.");
+            window.location.href = "login.html";
+        }else {
+            alert("logout cancelled.");
+        }
+    }
+    </script>
+
+
+    
+</body>
+</html>

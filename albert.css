@@ -1,0 +1,202 @@
+nav {
+    background-color: orange;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+
+}
+.logo {
+    margin-left: 30px;
+}
+.links {
+    display: flex;
+}
+.links a{
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    padding: 10px 35px;
+}
+.search {
+    margin-left: auto;
+   
+}
+.search input {
+    padding: 5px;
+    border-radius: 5px;
+}
+.search button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.active {
+    background-color: rgb(172, 123, 0);
+    border-radius: 10px;
+}
+.links a:hover{
+    background-color: rgb(207, 140, 7);
+    border-radius: 10px;
+}
+.hero {
+    background-color: #000000;
+    color: orange;
+    padding: 80px 20px;
+    text-align: center;
+    /* max-width: auto;
+    margin: 0 auto; */
+}
+.hero h1 {
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 15px;
+}
+.hero p {
+    color: orange;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: rgb(254, 254, 0);
+}
+.section {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: black;
+}
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section p {
+    color: orange;
+    margin-bottom: 30px;
+}
+.about-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: left;
+}
+ .about-image {
+    background-color:orange;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 500px;
+    border: 8px solid orange;
+ }
+ .about-text {
+    width: 50%;
+ }
+ .about-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+ }
+ .about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color:orange;
+ }
+ .LABOUT {
+    color: orange;
+ }
+ .Favor {
+    color: orange;
+ }
+ .cards {
+    display:grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .card{
+   flex: 1;
+   background-color: rgb(247, 247, 247);
+   padding: 20px;
+   border: 2px solid black;
+   border-radius: 5px;
+ }
+ .HIT {
+    color: orange;
+ }
+.card-image {
+    margin-bottom: 15px;
+    border: solid orange 5px;
+    background-color: orange;
+}
+.feat{
+    text-align: center;
+    padding: 20px 10%;   
+    background-color: orange;
+}
+.feat-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 50px 70px;
+    background-color: red;
+    border-radius: 5px;
+    border: solid black 5px;
+}
+.feat-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.feat-text {
+    text-align: left;
+    color:white;
+}
+.reason-card {
+    flex: 1;
+    padding: 20px;
+    background-color: red;
+    border-radius: 4px;
+}
+.reason-card1 {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(171, 48, 48);
+    border-radius: 4px;
+}
+.reason-card h3 {
+    margin-top: 0;
+}
+.reason {
+    display: flex;
+}
+.login {
+  background-color: orange;
+  border: black solid 5px;
+  padding: 50px 50px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+  border-radius: 10px;
+  flex: 1px;
+}
+.burt {
+    background-color: black;
+    color: orange;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+.zack {
+    background-color: rgb(202, 196, 196);
+    
+    
+}
+.rebot {
+    background-color: rgb(171, 129, 53);
+    padding: auto;
+}

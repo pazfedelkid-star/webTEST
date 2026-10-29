@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simp calcu</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+
+
+    <input type="number" id="number1" placeholder="first number">
+
+
+    <select id="operation">
+        <option value="">Choose an operator</option>
+        <option value="+">Addition</option>
+        <option value="-">Difference</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+    </select>
+
+
+    <br><br>
+
+
+    <input type="number" id="number2" placeholder="second number">
+
+
+    <button onclick="calculate();">Calculate</button>
+
+
+    <h2 id="result">This is RESULT:</h2>
+
+
+
+
+    <div id="page">
+        <h1 id="title">Sample JAVASCRIPT</h1>
+        <button onclick="changeblue()">Blue</button>
+        <button onclick="changered()">Red</button>
+        <button onclick="changegreen()">Green</button>
+        <button onclick="changewhite()">White (Reset)</button>
+        <br><br>
+        <button onclick="changeText()">changeText</button>
+        <button onclick="changeReset()">changeReset</button>
+    </div>
+
+
+
+
+    <script>
+       
+        function changeblue() {
+            document.body.style.backgroundColor = "blue";
+        }
+
+
+        function changered() {
+            document.body.style.backgroundColor = "red";
+        }
+
+
+        function changegreen() {
+            document.body.style.backgroundColor = "green";
+        }
+
+
+  
+        function changewhite() {
+            document.body.style.backgroundColor = "white";
+        }
+
+
+       
+        function changeText() {
+            document.getElementById("title").innerHTML = "Hello it's me";
+        }
+
+
+       
+        function changeReset() {
+            document.getElementById("title").innerHTML = "Sample JAVASCRIPT";
+        }
+    </script>
+
+
+
+
+    <script>
+        function calculate() {
+
+
+            let num1 = Number(document.getElementById("number1").value);
+            let num2 = Number(document.getElementById("number2").value);
+            let operation = document.getElementById("operation").value;
+            let result;
+
+
+            if (operation === "+") {
+                result = num1 + num2;
+            } else if (operation === "-") {
+                result = num1 - num2;
+            } else if (operation === "*") {
+                result = num1 * num2;
+            } else if (operation === "/") {
+                if (num2 === 0) {
+                    alert("Cannot divide by zero!");
+                    return;
+                }
+                result = num1 / num2;
+            } else {
+                alert("Invalid operator");
+                return;
+            }
+
+
+            document.getElementById("result").innerHTML = "Result: " + result;
+
+
+            alert("The result is: " + result);
+        }
+    </script>
+</body>
+</html>
